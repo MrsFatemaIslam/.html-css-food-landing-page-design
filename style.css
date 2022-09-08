@@ -1,0 +1,214 @@
+/* montserrat font import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* hero section design */
+ .hero{
+  padding: 40px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ .hero-text h1{
+font-family:'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size:45px;
+line-height: 135%;
+letter-spacing: -0.02cm;
+color: #575757;
+padding-bottom: 30px;
+}
+ .orange-heading{
+    
+    background: -webkit-linear-gradient(88.33deg,#FBA24f -7.64%,#FF1E1E 145.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.hero-text p{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size:16px;
+line-height: 150%;
+letter-spacing: -0,02cm;
+color: #828282;
+padding-bottom:50px;
+
+}
+.hero-text a{
+background: linear-gradient(88.33deg,#fba24f -7.65%, #FF1E1E 145.94% );
+box-shadow: 0px 2px 30px rgb(252,143,73,0.5);
+border-radius: 100px;
+padding: 20px 35px;
+font-family:  'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+color: #ffffff;
+}
+.hero-img img{
+    width:380px;
+    height:530px;
+}
+/* about section design */
+
+.about{
+padding: 70px 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:rgba(255, 235, 205, 0.315);
+}
+.about-img img{
+    width:320px;
+    height:500px;
+    
+}
+.about-text h1{
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size:50px;
+    line-height: 135%;
+    letter-spacing: -0.02cm;
+    color: #575757;
+    padding-bottom: 30px;
+    padding-left:40px;
+}
+.about-text p{
+ font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size:20px;
+line-height: 160%;
+letter-spacing: -0,02cm;
+color: #828282;
+padding-bottom:60px;
+padding-left:40px;
+}
+.about-text a{
+background: linear-gradient(88.33deg,#fba24f -7.65%, #FF1E1E 145.94% );
+box-shadow: 0px 2px 30px rgb(252,143,73,0.5);
+border-radius: 100px;
+padding: 20px 35px;
+font-family:  'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 180%;
+color: #ffffff;
+margin-left: 45px;
+}
+/* recipies section design */
+.recipies{
+padding:70px 80px;
+
+
+}
+.recipics-box img{
+width: 230px;
+height:250px;
+padding-bottom: 20px;
+}
+.recipies-header{
+padding-bottom: 40px;
+text-align: center;
+
+}
+.recipies-header h1{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+text-transform: capitalize;
+color: #676767;
+padding-bottom: 30px;
+}
+.recipies-header p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight:400;
+    font-size: 18px;
+    line-height: 28px;
+    color:#252525;
+    width:450px;
+    margin: 0 auto;
+    padding-bottom: 20px ;
+    }
+
+.recipic{
+width:230px ;
+height:500px ;
+background-color: #ffffff;
+box-shadow: 0px 0px 30px rgba(0, 0, 15);
+border-radius: 30px;
+padding: 20px;
+}
+
+.recipic h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight:800;
+    font-size: 28px;
+    line-height: 40px;
+    color:#18191f;
+    padding-bottom: 10px
+
+}
+.recipic p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight:400;
+    font-size: 18px;
+    line-height:30px;
+    color:#18191f;
+    padding-bottom: 10px ;
+    }
+
+.recipics-box{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+/* end section design */
+.end-section{
+    padding: 50px 80px;
+    background-color:rgba(0, 0, 0, 0.993);
+    justify-content: center;
+    align-items: center;
+
+}
+.end-section h1{
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size:35px;
+    line-height: 110%;
+    letter-spacing: -0.02cm;
+    color: #575757;
+    padding-bottom: 30px;
+    text-align: center;
+    align-items: center;
+}
+    .end-section p{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size:16px;
+        line-height: 150%;
+        letter-spacing: -0,02cm;
+        color:#ffffff;
+        padding-bottom:50px;
+        text-align: center;
+        justify-content: center;
+    }
+
+
